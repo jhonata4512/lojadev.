@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #0a0a0a;
+    color: #fff;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #222 0%, #660000 100%);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  section {
+    padding: 3rem 1rem;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #1a1a1a;
+    border: 2px solid #660000;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h2 {
+    color: #ff3333;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-whatsapp {
+    background: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-whatsapp:hover {
+    background: #ff4d4d;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    background: #111;
+    margin-top: 2rem;
+  }
+  .topo {
+    background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+    padding: 1.5rem;
+    border-bottom: 3px solid #ff3333;
+    position: relative;
+  }
+  
+  .topo-container {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 8px;
+  }
+  
+  .texto-central {
+    text-align: center;
+  }
+  
+  .texto-central h1 {
+    font-size: 1.8rem;
+    color: #ff3333;
+    margin-bottom: 0.3rem;
+  }
+  
+  .texto-central p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
